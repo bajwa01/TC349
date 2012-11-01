@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+h1 {
+	font-family: "Comic Sans MS", cursive;
+	color: #F90;
+	text-align:center;
+	background-color:#000;
+}
+
+body {
+	background-color:#F93
+}
+
+h2 {
+	font-family: Tahoma, Geneva, sans-serif;
+	color:#FFF;
+	text-decoration:underline;
+}
+
+h3{
+	font-family:"Courier New", Courier, monospace;
+	color: #333;
+}
+	
+img {
+   padding:1px;
+   border:3px solid #021a40;
+   background-color:#ff0;
+  
+}

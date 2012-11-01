@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { 
+	background-color: #F90;
+}
+
+
+h1 {
+	text-align: center;
+	background-color:gray;
+	font:Helvetica;
+	color:white;
+	font-size:36px
+	;
+	
+}
+ h2 {
+	 
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:white;
+	 font-size: 14px;
+	 
+	 
+ }
+
+ul {
+	text-align:center;
+	
+}
+
+li {
+	margin-left: 30px;
+	list-style-type: square;
+	color: #36C
+}
