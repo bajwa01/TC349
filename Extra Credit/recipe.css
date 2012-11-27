@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background: url(img/Chicken-Alfredo.jpg) ;
+	
+	background-repeat : no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height: 1.4em;
+}
+
+#swf_container {
+	margin:0 0 0 -15px;
+}
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+article {
+	margin: 0;
+}
+
+#recipes {
+	padding: 15px;
+	background: #FFF ;
+	opacity:0.9;
+	border-top: 10px solid #222;
+	box-shadow: 0 0 20px #424242
+}
+
+h1 {
+	background: url(img/logo.png) no-repeat center top;
+	
+	height: 100px;
+	width: 800px;
+	text-indent: -9000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+hgroup {
+	color: #fff;
+	margin: 0 0 -57px 0;
+	font-family: Helvetica, Gerogria, sans serif
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+h3 {
+	margin-bottom: 5px;
+	font-style:bold;
+}
+
+
+
+
+table, tr, td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	padding: 5px;
+}
+
+@media (max-width: 320px) {
+.container {
+	width: 100%;
+	margin: 0;
+}
+h1 {
+	width: 100%;
+}
+article {
+	margin: 240px 0 0 0;
+}
