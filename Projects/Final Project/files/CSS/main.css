@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: url(../img/record1.jpg) ;
+	
+	background-repeat : repeat;
+	background-attachment:fixed;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+
+}
+
+#simba-top{
+		margin-left:100px;
+		margin-top:0px;
+}
+
+.top3{
+	;
+}
+
+#navigation {
+	margin-top: -96px;
+	padding-bottom: 100px;
+	margin-left:185px;
+	
+
+}
+
+#ribbon{
+	margin-top:-60px;
+	
+	margin-left:200px;
+	
+}
+
+li {
+	display:inline;
+	padding-left:90px;
+	color: #0F0;
+	font-size:20px;
+	text-transform:uppercase;
+	
+	}
+
+
+.container {
+	width: 1200px;
+	
+	margin: auto;
+	padding-bottom:30px;
+	
+	
+	
+}
+
+#navver {
+	margin-top:-650px;
+	margin-left:600px;
+}
+
+
+
+#mainpic{
+	padding: 0px;
+	
+	border: 10px solid # FFF;
+	box-shadow: 0 0 20px #FFF;
+	height:650px;
+	border-radius: 15px; 
+	margin-top:-40px;
+	
+}
+
+
+#events{
+	background:#000;
+	float:right;
+	margin-top:-650px;
+	margin-right:300px;
+	width:280px;
+	height:650px;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	text-align:center;
+	overflow: auto;
+	overflow-x: auto;
+	overflow-y: auto;
+	opacity:0.8;
+	
+	
+}
+
+
+p {
+	color:#333;
+	
+}
+
+
+h1{
+	color: #808000;
+	text-align:center;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+}
+ h2 {
+	 
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:#004080;
+	 font-size: 18px;
+	 text-align:center;
+	 
+ }
+ 
+ h3 {
+	  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:#FFF;
+	 font-size: 14px;
+	 text-indent:40px;
+	 padding-right:45px;
+	 
+	 
+ }
+
+
+a:link {color:#000;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#FF8000;}  /* mouse over link */
+a:active {color:#C30;}  /* selected link */ 
+a {text-decoration: none; }
+
+.twitter-timeline{
+	float:right;
+	margin-top:-650px;
+	width:300px;
+	height:650px;
+	opacity:0.8;
+
+}
+
+@media (max-width: 320px) {
+.container {
+	width: 100%;
+	margin: 0;
+}
+h1, h2, h3,h4 {
+	width: 100%;
+}
+#mainpic, #events, #simba-top, #ribbon ,#navigation, #simba-top, li {
+	width:100%;
+}
+body , #navvbar{
+	width:100%
+}
+
+}

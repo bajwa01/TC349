@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body {
+	background: url(../img/mixer.jpg) ;
+
+	background-repeat : repeat;
+	background-attachment:fixed;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	
+}
+
+#simba-top{
+		margin-left:50px;
+		margin-top:0px;
+}
+
+.top3{
+	;
+}
+
+#navigation {
+	margin-top: -96px;
+	padding-bottom: 100px;
+	margin-left:90px;
+
+}
+
+
+
+#ribbon{
+	margin-top:-60px;
+	
+	margin-left:105px;
+	
+}
+
+li {
+	display:inline;
+	padding-left:90px;
+	color: #0F0;
+	font-size:20px;
+	text-transform:uppercase;
+	
+	}
+
+#navver {
+	margin-top:-800px;
+	margin-left:650px;
+}
+
+
+.container {
+	width: 1000px;
+	
+	margin: auto;
+	padding-bottom:30px;
+	
+}
+
+#video{
+	padding: 10px;
+	background: #000 ;
+	border: 10px solid # FFF;
+	box-shadow: 0 0 20px #FFF;
+	/*height:650px;*/
+	border-radius: 15px; 
+	margin-top:-40px;
+	opacity:0.95;
+}
+
+p {
+	color:#333;
+	
+}
+
+
+h1{
+	
+	color: #FFF;
+	font-family: "Times New Roman", Times, serif;
+	
+}
+ h2 {
+	 
+	 font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:#004080;
+	 font-size: 18px;
+	 float:right;
+	 width:320px;
+	
+	
+	 
+ }
+ 
+ h3 {
+	  font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	 color:#FFF;
+	 font-size: 14px;
+	 text-indent:50px;
+	 padding-right:45px;
+	 
+ }
+
+
+a:link {color:#000;}      /* unvisited link */
+a:visited {color:#000;}  /* visited link */
+a:hover {color:#FF8000;}  /* mouse over link */
+a:active {color:#C30;}  /* selected link */ 
+a {text-decoration: none; }
+
+@media (max-width: 320px) {
+.container {
+	width: 100%;
+	margin: 0;
+}
+h1, h2, h3,h4 {
+	width: 100%;
+}
+#mainpic, #events, #simba-top, #ribbon ,p ,li {
+	width:100%;
+}
+body , #navvbar{
+	width:100%
+}
+video {
+	width: 100%;
+	height: inherit;
+}
+}
+
